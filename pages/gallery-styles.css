@@ -1,0 +1,98 @@
+
+
+body { 
+	
+	margin: 0 auto !important; 
+	float: none !important; 
+  max-width: 1280px;
+
+}
+
+/* Header */
+
+
+
+.header-bar {
+  display: flex;
+  background-color: rgb(14, 13, 13);
+  padding-left: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0px 10px 5px  rgb(151, 148, 142);
+  
+  
+}
+
+#home-link {
+  font-size: 100px;
+  text-decoration: none;
+  font-family: cursive;
+  color: rgb(252, 247, 247);
+  
+  
+}
+
+.top-links {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  font-size: 40px;
+  margin-top: 38px;
+  margin-left: 30%
+  
+}
+
+
+.links {
+  text-decoration: none;
+  color: rgb(252, 247, 247);
+  
+}
+
+
+#gallery {
+
+  display: flex;
+  justify-content: center;
+}
+
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.pics {
+
+  border: 3px solid;
+  margin: 1%;
+  box-shadow: 30px 30px 30px  rgb(151, 148, 142);
+
+}
+
+/* Responsive layout - when the screen is less than 800px wide */
+@media screen and (max-width: 800px) {
+  body{
+     width: 100%;
+
+  }
+  .header-bar{
+     flex-direction: column;
+ 
+  }
+  #home-link{
+     font-size: 60px;
+     margin: auto;
+  }
+
+  .top-links {
+     justify-content: space-around ;
+     width: 100%;
+     margin: 0;
+     margin-top: 5px;
+     padding-bottom: 20px;
+     font-size: 20px;
+  }
+ }
